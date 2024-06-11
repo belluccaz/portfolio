@@ -43,7 +43,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou e
 
 ## Autor
 
-- **Seu Nome**: Desenvolvedor Full-Stack | [GitHub](https://github.com/seu-usuario) | [LinkedIn](https://www.linkedin.com/in/seu-perfil)
+- **Lucas Bellucci Almendra**: Desenvolvedor Full-Stack | [GitHub](https://github.com/belluccaz) | [LinkedIn](www.linkedin.com/in/lucas-bellucci-353b10298)
 
 ## Licença
 
