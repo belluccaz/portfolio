@@ -46,7 +46,7 @@ h1, h2, h3, p {
 
 .profile-photo {
   border-radius: 50%;
-  width: 200px; /* Defina o tamanho desejado */
+  width: 333px; /* Defina o tamanho desejado */
   height: auto;
   margin-right: 20px;
 }
