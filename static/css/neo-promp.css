@@ -1,0 +1,70 @@
+body, html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    color: #00ff00;
+    opacity: 0.9; /* Opacidade do fundo */
+}
+
+.neo-prompt-container {
+    display: flex;
+    align-items: flex-start; /* Alinha o conteúdo ao topo */
+    justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+    height: 100vh;
+    padding: 20px; /* Adiciona um espaço interno */
+    box-sizing: border-box; /* Garante que o padding seja incluído nas dimensões */
+    text-align: left; /* Alinha o texto à esquerda */
+    background-color: rgba(0, 0, 0, 0.267); /* Cor e transparência do prompt */
+}
+
+#prompt-message {
+    margin: 0;
+}
+
+#cursor {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #00ff00;
+    }
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#matrix-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+    filter: invert(1);
+}
+
+.social-links img:hover {
+    filter: invert(0.8);
+}
