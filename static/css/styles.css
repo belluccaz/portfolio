@@ -21,6 +21,7 @@ body {
   align-items: center;
   border-bottom: 1px solid #00FF00;
   opacity: 0.7;
+  flex-wrap: wrap;
 }
 
 .navbar a {
@@ -31,7 +32,7 @@ body {
 
 header {
   text-align: center;
-  padding: 50px;
+  padding: 50px 20px;
 }
 
 h1, h2, h3, p {
@@ -42,11 +43,13 @@ h1, h2, h3, p {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .profile-photo {
   border-radius: 50%;
-  width: 333px; /* Defina o tamanho desejado */
+  width: 100%;
+  max-width: 333px;
   height: auto;
   margin-right: 20px;
 }
@@ -54,6 +57,7 @@ h1, h2, h3, p {
 iframe {
   height: 100vh;
   width: 100%;
+  max-height: 500px;
 }
 
 .project-image {
@@ -64,6 +68,7 @@ iframe {
 }
 
 .session-content {
+  color: #f1f1f1;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -77,6 +82,7 @@ iframe {
   border: 1px solid #00ff1995;
   border-radius: 10px;
   background-color: rgba(11, 11, 11, 0.7);
+  box-sizing: border-box;
 }
 
 .pill-container {
@@ -165,6 +171,8 @@ main {
   margin: 20px;
   opacity: 0.7;
   background-color: #333333f1;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 #matrix-canvas {
@@ -178,33 +186,37 @@ main {
 
 @media screen and (max-width: 768px) {
   .projeto {
-    flex: 1 1 100%;
+      flex: 1 1 100%;
   }
 
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+      flex-direction: column;
+      align-items: flex-start;
   }
 
   .navbar a {
-    padding: 5px;
-    margin: 5px 0;
+      padding: 5px;
+      margin: 5px 0;
   }
 
   header {
-    padding: 20px;
+      padding: 20px;
   }
 
   .project-image {
-    width: 100%;
+      width: 100%;
   }
 
   .about-me {
-    flex-direction: column;
+      flex-direction: column;
   }
 
   .profile-photo {
-    margin: 0 auto 20px;
+      margin: 0 auto 20px;
+  }
+
+  iframe {
+      max-height: 300px;
   }
 }
 
@@ -225,20 +237,24 @@ main {
 
 @media screen and (max-width: 480px) {
   header h1 {
-    font-size: 1.5em;
+      font-size: 1.5em;
   }
 
   .projeto {
-    margin: 5px;
-    padding: 10px;
+      margin: 5px;
+      padding: 10px;
   }
 
   .input-group input, .input-group textarea {
-    padding: 5px;
+      padding: 5px;
   }
 
   .submit {
-    opacity: 1.0;
-    padding: 5px 10px;
+      opacity: 1.0;
+      padding: 5px 10px;
+  }
+
+  iframe {
+      max-height: 200px;
   }
 }
