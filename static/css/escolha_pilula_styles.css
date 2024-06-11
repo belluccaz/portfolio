@@ -101,68 +101,68 @@ body {
   }
   
   @media screen and (max-width: 768px) {
-    .projeto {
-      flex: 1 1 100%;
-    }
-  
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .navbar a {
-      padding: 5px;
-      margin: 5px 0;
-    }
-  
-    header {
-      padding: 20px;
-    }
-  
-    .project-image {
-      width: 100%;
-    }
-  
-    .about-me {
-      flex-direction: column;
-    }
-  
-    .profile-photo {
-      margin: 0 auto 20px;
-    }
+  .projeto {
+    flex: 1 1 100%;
   }
-  
-  #the-white-rabbit {
-    background-color: #333333b8;
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  #the-white-rabbit p {
+
+  .navbar a {
+    padding: 5px;
+    margin: 5px 0;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .about-me {
+    flex-direction: column;
+  }
+
+  .profile-photo {
+    margin: 0 auto 20px;
+  }
+}
+
+#the-white-rabbit {
+  background-color: #333333b8;
+}
+
+#the-white-rabbit p {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #f1f1f1;
+}
+
+.input-group label {
+  font-size: 1.5em;
+  color: #f1f1f1;
+}
+
+@media screen and (max-width: 480px) {
+  header h1 {
     font-size: 1.5em;
-    font-weight: 300;
-    color: #f1f1f1;
   }
-  
-  .input-group label {
-    font-size: 1.5em;
-    color: #f1f1f1;
+
+  .projeto {
+    margin: 5px;
+    padding: 10px;
   }
-  
-  @media screen and (max-width: 480px) {
-    header h1 {
-      font-size: 1.5em;
-    }
-  
-    .projeto {
-      margin: 5px;
-      padding: 10px;
-    }
-  
-    .input-group input, .input-group textarea {
-      padding: 5px;
-    }
-  
-    .submit {
-      padding: 5px 10px;
-    }
+
+  .input-group input, .input-group textarea {
+    padding: 5px;
   }
-  
+
+  .submit {
+    opacity: 1.0;
+    padding: 5px 10px;
+  }
+}
