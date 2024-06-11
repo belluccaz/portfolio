@@ -24,6 +24,8 @@ O portfólio consiste nas seguintes seções:
 ## Estrutura de Arquivos
 
 - `index.html`: Arquivo principal da página.
+- `portfolio.html`: Arquivo com meu portfólio.
+- `neo-prompt.html`: Página em que o usuário é redirecionado ao selecionar a pílula azul (redireciona o usuário à 'index.html').
 - `styles.css`: Folha de estilos para estilizar a página.
 - `scripts.js`: Arquivo JavaScript para funcionalidades interativas.
 - `img/`: Pasta contendo imagens utilizadas na página.
