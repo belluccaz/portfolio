@@ -45,6 +45,7 @@ h1, h2, h3, p {
 }
 
 h2 {
+  color: #39db34;
   font-size: 2em;
 }
 
@@ -186,7 +187,7 @@ main {
   border-color:#740583;
   border-radius: 10px;
   margin: 20px;
-  opacity: 0.7;
+  opacity: 0.77;
   background-color: #333333f1;
   padding: 20px;
   box-sizing: border-box;
