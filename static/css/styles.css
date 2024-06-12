@@ -258,3 +258,24 @@ main {
       max-height: 200px;
   }
 }
+
+/* Additional styles for "Ver projeto" buttons */
+.project-link {
+  background-color: #00ff1995;
+  color: #111111;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 17px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1em;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.project-link:hover {
+  background-color: #00ff00;
+  color: #000;
+}
