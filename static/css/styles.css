@@ -4,6 +4,7 @@ body {
   color: #00ff1995;
   margin: 0;
   padding: 0;
+  font-size: 1.1em
 }
 
 .matrix-background {
@@ -11,6 +12,7 @@ body {
   z-index: 1;
   padding: 20px;
 }
+
 
 .navbar {
   background-color: #333333b8;
@@ -39,6 +41,10 @@ h1, h2, h3, p {
   margin: 20px;
 }
 
+h2 {
+  font-size: 2em;
+}
+
 .about-me {
   display: flex;
   align-items: center;
@@ -52,6 +58,9 @@ h1, h2, h3, p {
   max-width: 333px;
   height: auto;
   margin-right: 20px;
+  margin-left: 20px;
+  border-style: solid;
+  border-color: #740583;
 }
 
 iframe {
@@ -115,8 +124,11 @@ iframe {
 }
 
 .submit, .expand-button {
-  background-color: #00ff1995;
-  color: #111111;
+  height: 50px;
+  width: 150px;
+  font-size: larger;
+  background-color: #740583;
+  color: #b1b1b1;
   padding: 10px 20px;
   border: none;
   border-radius: 17px;
@@ -225,7 +237,7 @@ main {
 }
 
 #the-white-rabbit p {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 300;
   color: #f1f1f1;
 }
