@@ -92,7 +92,7 @@ body {
   .pill-container {
     display: flex;
     justify-content: center;
-}
+  }
 
 
   #matrix-canvas {
