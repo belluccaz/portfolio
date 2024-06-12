@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     // Smooth scroll
     $('a[href^="#"]').on("click", function (event) {
         var target = this.hash;
@@ -61,5 +60,11 @@ $(document).ready(function () {
             event.preventDefault();
             $(target + " .session-content").slideToggle();
         }
-    });   
+    });
+
+    // Redireciona ao clicar nos botões de projeto
+    $(".project-link").on("click", function () {
+        var url = $(this).data("url");
+        window.location.href = url;
+    });
 });
