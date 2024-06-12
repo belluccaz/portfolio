@@ -148,17 +148,27 @@ iframe {
 }
 
 footer {
+  align-items: center;
   height: 100%;
   text-align: center;
   padding: 20px;
   background-color: rgba(95, 95, 95, 0.297);
-  color: #00FF00;
+  color: #f1f1f1;
   border-top: 1px solid #00FF00;
 }
 
 .social-links img {
   filter: invert(0.7);
   width: 30px;
+  margin: 0 10px;
+}
+
+.logolba {
+  padding: 20px;
+  padding-top: 0px;
+  align-items: center;
+  filter: invert(0.7);
+  width: 200px;
   margin: 0 10px;
 }
 
