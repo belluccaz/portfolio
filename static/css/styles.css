@@ -1,7 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
   background-color: rgba(11, 11, 11, 0.487);
-  color: #00ff1995;
+  color: #00ccff95;
   margin: 0;
   padding: 0;
   font-size: 1.1em
@@ -13,24 +13,23 @@ body {
   padding: 20px;
 }
 
-
 .navbar {
   background-color: #333333b8;
-  color: #00FF00;
+  color: #00ccff;
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-right: 1px solid #740583;;
-  border-left: 1px solid #740583;
-  border-top: 1px solid #740583;
-  border-bottom: 1px solid #740583;
+  border-right: 1px solid #808080;
+  border-left: 1px solid #808080;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
   opacity: 0.7;
   flex-wrap: wrap;
 }
 
 .navbar a {
-  color: #00ff00;
+  color: #00ccff;
   text-decoration: none;
   padding: 10px;
 }
@@ -45,7 +44,7 @@ h1, h2, h3, p {
 }
 
 h2 {
-  color: #39db34;
+  color: #29b9ff;
   font-size: 2em;
 }
 
@@ -64,7 +63,7 @@ h2 {
   margin-right: 20px;
   margin-left: 20px;
   border-style: solid;
-  border-color: #740583;
+  border-color: #808080;
 }
 
 iframe {
@@ -92,7 +91,7 @@ iframe {
   flex: 1 1 calc(45% - 20px);
   margin: 10px;
   padding: 20px;
-  border: 1px solid #00ff1995;
+  border: 1px solid #00ccff95;
   border-radius: 10px;
   background-color: rgba(11, 11, 11, 0.7);
   box-sizing: border-box;
@@ -117,7 +116,7 @@ iframe {
 .input-group input, .input-group textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #00ff1995;
+  border: 1px solid #00ccff95;
   border-radius: 5px;
   background-color: #ffffff;
   color: #00000095;
@@ -131,8 +130,8 @@ iframe {
   height: 50px;
   width: 150px;
   font-size: larger;
-  background-color: #740583;
-  color: #b1b1b1;
+  background-color: #3498db;
+  color: #336699;
   padding: 10px 20px;
   border: none;
   border-radius: 17px;
@@ -144,7 +143,7 @@ iframe {
 }
 
 .submit:hover, .expand-button:hover {
-  background-color: rgba(111, 111, 111, 0.7);
+  background-color: #336699(111, 111, 111, 0.7);
 }
 
 footer {
@@ -154,7 +153,7 @@ footer {
   padding: 20px;
   background-color: rgba(95, 95, 95, 0.297);
   color: #f1f1f1;
-  border-top: 1px solid #00FF00;
+  border-top: 1px solid #00ccff;
 }
 
 .social-links img {
@@ -194,7 +193,7 @@ footer {
 
 main {
   border-style: double;
-  border-color:#740583;
+  border-color: #808080;
   border-radius: 10px;
   margin: 20px;
   opacity: 0.77;
@@ -289,7 +288,7 @@ main {
 
 /* Additional styles for "Ver projeto" buttons */
 .project-link {
-  background-color: #00ff1995;
+  background-color: #00ccff95;
   color: #111111;
   padding: 10px 20px;
   border: none;
@@ -304,6 +303,6 @@ main {
 }
 
 .project-link:hover {
-  background-color: #00ff00;
+  background-color: #00ccff;
   color: #000;
 }
