@@ -20,6 +20,7 @@ O portfólio consiste nas seguintes seções:
 - CSS
 - JavaScript
 - jQuery
+- Formspree
 
 ## Estrutura de Arquivos
 
