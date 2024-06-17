@@ -1,24 +1,28 @@
-// Matrix effect
-const canvas = document.getElementById("matrix-canvas");
-const ctx = canvas.getContext("2d");
+  // Matrix effect
+  const canvas = document.getElementById("matrix-canvas");
+  const ctx = canvas.getContext("2d");
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+  // Ajusta o tamanho do canvas para ocupar toda a janela
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
 
-const letters = Array(256).join(1).split("");
+  // Cria um array de 256 elementos preenchidos com '1'
+  const letters = Array(256).join(1).split("");
 
-function drawMatrix() {
-  ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = "#0F0";
-  letters.map((y_pos, index) => {
-    const text = String.fromCharCode(65 + Math.random() * 33);
-    const x_pos = index * 10;
-    ctx.fillText(text, x_pos, y_pos);
-    letters[index] =
-      y_pos > canvas.height + Math.random() * 1e4 ? 0 : y_pos + 10;
-  });
-}
+  // Função para desenhar o efeito Matrix
+  function drawMatrix() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)"; // Define a cor de preenchimento do fundo com um tom preto semi-transparente
+    ctx.fillRect(0, 0, canvas.width, canvas.height); // Preenche o canvas com a cor de preenchimento
+    ctx.fillStyle = "#0FF"; // Define a cor do texto para um tom azulado
+    letters.map((y_pos, index) => {
+      const text = String.fromCharCode(65 + Math.random() * 33); // Gera caracteres aleatórios
+      const x_pos = index * 10; // Calcula a posição x
+      ctx.fillText(text, x_pos, y_pos); // Desenha o texto no canvas
+      letters[index] =
+        y_pos > canvas.height + Math.random() * 1e4 ? 0 : y_pos + 10; // Atualiza a posição y
+    });
+  }
+
 $(document).ready(function () {
     
     $('#red-pill').on('click', function() {
