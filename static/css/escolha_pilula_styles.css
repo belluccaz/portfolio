@@ -1,7 +1,7 @@
 body {
   font-family: "Courier New", Courier, monospace;
   background-color: rgba(11, 11, 11, 0.487);
-  color: #00ff1995;
+  color: #00cc95ff;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -61,7 +61,7 @@ footer {
   padding: 20px;
   background-color: rgba(95, 95, 95, 0.297);
   color: #f1f1f1;
-  border-top: 1px solid #00ff00;
+  border-top: 1px solid #00cc95;
   width: 100%;
   margin-top: auto;
 }
