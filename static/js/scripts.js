@@ -1,4 +1,29 @@
 $(document).ready(function () {
+  // Smooth scroll (mantenha esta parte se desejar o efeito de rolagem suave)
+  $('a[href^="#"]').on("click", function (event) {
+    var target = this.hash;
+    if (target) {
+      event.preventDefault();
+      $("html, body").animate(
+        {
+          scrollTop: $(target).offset().top,
+        },
+        800,
+        function () {
+          window.location.hash = target;
+        }
+      );
+    }
+  });
+
+  // Redirecionamento para projetos
+  $(".project-link").on("click", function () {
+    var url = $(this).data("url");
+    window.location.href = url;
+  });
+
+  // Restante do seu código JavaScript
+
   // Smooth scroll
   $('a[href^="#"]').on("click", function (event) {
     var target = this.hash;
