@@ -7,6 +7,15 @@ body {
   font-size: 1.1em
 }
 
+.rabbit-img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #00ccff95;
+  margin-bottom: 10%;
+}
+
 .matrix-background {
   position: relative;
   z-index: 1;
