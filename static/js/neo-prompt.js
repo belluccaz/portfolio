@@ -66,7 +66,7 @@ $(document).ready(function () {
     }
     if (messageIndex === 5) {
       // Última mensagem exibida, redireciona para index.html
-      window.location.href = "pills.html";
+      window.location.href = "index.html";
     }
   }
 
