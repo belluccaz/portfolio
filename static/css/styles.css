@@ -7,15 +7,6 @@ body {
   font-size: 1.1em
 }
 
-.rabbit-img {
-  width: 50%;
-  height: auto;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: #00ccff95;
-  margin-bottom: 10%;
-}
-
 .matrix-background {
   position: relative;
   z-index: 1;
@@ -33,7 +24,7 @@ body {
   border-left: 1px solid #808080;
   border-top: 1px solid #808080;
   border-bottom: 1px solid #808080;
-  opacity: 0.7;
+  opacity: 0.9;
   flex-wrap: wrap;
 }
 
@@ -169,6 +160,15 @@ footer {
   filter: invert(0.7);
   width: 30px;
   margin: 0 10px;
+}
+
+.rabbit-img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #00ccff95;
+  margin-bottom: 10%;
 }
 
 .logolba {
